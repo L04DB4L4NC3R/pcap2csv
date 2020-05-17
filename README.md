@@ -1,4 +1,9 @@
 # pcap2csv
+Installing pre-requisites:
+
+```
+pip3 install -r requirements.txt
+```
 Use PyShark and scapy to read fields from a pcap file and populate a CSV
 
     Usage: pcap2csv --pcap <input pcap file> --csv <output pcap file>
